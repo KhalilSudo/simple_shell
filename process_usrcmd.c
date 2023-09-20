@@ -82,7 +82,12 @@ void process_usrcmd(char *line)
 	free(Path);
 	free(args);
 }
-
+/**
+ * handleInput - handleInput of a command.
+ * @line: The arguments of the command.
+ *
+ * Return: void.
+ */
 void handleInput(char *line)
 {
 	char *comment = NULL;
